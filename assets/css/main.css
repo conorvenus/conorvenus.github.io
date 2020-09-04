@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Keep Calm";
+    src: url("/assets/KeepCalm.ttf") format("ttf"),
+}
+
+html, body {
+    font-family: "Keep Calm";
+    height: 100%;
+    width: 100%;
+}
+
+code {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to left, #ee0979, #ff6a00);
+    -webkit-background-clip: text;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.portfolio-description {
+    font-weight: 600;
+}
+
+.nav-container {
+    background-image: linear-gradient(to left, #ee0979, #ff6a00);
+}
+
+.card {
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px !important;
+    color: white;
+    padding: 25px 25px !important;
+}
+.card .card-header {
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-image: linear-gradient(to left, #F42D4C, #ff6a00);
+    border-radius: 15px !important;
+}
+
+.card .card-header a {
+    color: white;
+}
+
+.hidden:hover { 
+    cursor: default;
+    opacity: 1;
+}
+
+header {
+    background-image: linear-gradient(to left, #ee0979, #ff6a00);
+    height: 450px;
+}
+
+header .description .row {
+    margin-top: 13%;
+}
+
+.nav-item {
+    margin: 0px 7px;
+    font-weight: 500;
+}
+
+p.hidden-text {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #9e9e9e;
+}
+
+p.descriptive-text {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #bebebe;
+}
