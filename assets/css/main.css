@@ -56,13 +56,17 @@ code {
     opacity: 1;
 }
 
+.navbar-toggler {
+    outline: none !important;
+}
+
 header {
     background-image: linear-gradient(to left, #ee0979, #ff6a00);
     height: 450px;
 }
 
-header .description .row {
-    margin-top: 13%;
+header .description .gradient {
+    height: 175px;
 }
 
 .nav-item {
