@@ -147,6 +147,7 @@ header {
 }
 
 .slanted-btn.selected a {
+  -webkit-text-fill-color: white;
   color: white;
 }
 
