@@ -115,7 +115,7 @@ header {
   font-size: 0.75em;
 }
 
-.slanted-btn > * {
+.slanted-btn a {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
