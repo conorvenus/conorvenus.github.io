@@ -151,12 +151,13 @@ header {
 
 main {
   position: absolute;
+  top: 100px;
+  padding: 100px 0;
   text-align: center;
-  height: 100%;
+  height: calc(100%-100px);
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -203,11 +204,6 @@ main ul {
   .link-text,
   .navbar-branding h1 {
     display: none;
-  }
-
-  main {
-    top: 100px;
-    padding: 50px 0;
   }
 
   .skills-list {
