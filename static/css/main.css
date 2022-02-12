@@ -106,9 +106,7 @@ header {
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
+  display: block;
 }
 
 .navbar-nav li a i {
