@@ -114,13 +114,17 @@ header {
 }
 
 .slanted-btn a {
+  -ms-transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+}
+
+.slanted-btn a i,
+.slanted-btn a .link-text {
   -webkit-text-fill-color: transparent;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  -ms-transform: skewX(20deg);
-  -webkit-transform: skewX(20deg);
-  transform: skewX(20deg);
   background-image: linear-gradient(
     to right,
     var(--primary-1),
@@ -144,7 +148,8 @@ header {
   );
 }
 
-.slanted-btn.selected a {
+.slanted-btn.selected a i,
+.slanted-btn.selected a .link-text {
   -webkit-text-fill-color: white;
   color: white;
 }
